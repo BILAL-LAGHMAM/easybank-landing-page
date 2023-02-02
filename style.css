@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    font-size: 18px;
+}
+
+/* start header */
+header nav {
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header nav .links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+
+header nav .links li a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+}
+
+header nav .links li {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid hsl(0, 0%, 100%);
+
+}
+
+header nav .links li:hover {
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    transition-duration: 0.4s;
+    color: hsl(233, 26%, 24%);
+}
+
+header nav .links li a:hover {
+    color: hsl(233, 26%, 24%);
+    transition-duration: 0.4s;
+}
+
+header nav .btn_request a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+header nav .btn_request a:hover {
+    background-image: linear-gradient(to right, hsl(136, 40%, 30%), hsl(192, 40%, 30%));
+}
+
+header .bottom_header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header .bottom_header .rightarticle {
+    background-image: url(images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: -260px;
+    overflow: hidden;
+    width: 60%;
+}
+
+header .bottom_header .rightarticle img {
+    width: 100%;
+    position: relative;
+    right: -107px;
+    top: -100px;
+}
+
+header .bottom_header .leftarticle {
+    padding-left: 50px;
+    align-self: center;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+header .bottom_header .leftarticle h2 {
+    font-size: 50px;
+}
+header .bottom_header .leftarticle p {
+    font-size: 20px;
+}
+
+header .bottom_header .leftarticle a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 33%;
+    text-align: center;
+}
+header .bottom_header .leftarticle a:hover{
+    background-image: linear-gradient(to right, hsl(136, 40%, 30%), hsl(192, 40%, 30%));
+}
+
+/* end header */
+
+/* start choose */
+.choose{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: hsl(0, 0%, 98%);
+    height: 80vh;
+    justify-content: center;
+}
+.choose .divtop{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.choose .divtop h2{
+    font-size: 40px;
+}
+.choose .divbottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.choose .divbottom .art img{
+    width: 25%;
+}
+.choose .divbottom .art{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 25%;
+}
+/* end choose */
+
+/* start latest_art */
+.latest_art{
+    padding: 0 50px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: hsl(0, 0%, 98%);
+}
+.latest_art .articls{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.latest_art .articls .art div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.latest_art .articls .art div h2{
+    font-size: 20px;
+}
+.latest_art .articls .art div h2:hover{
+    color: hsl(192, 70%, 51%);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.latest_art .articls .art div span{
+    font-size: 14px;
+    color: hsl(233, 8%, 62%);
+}
+.latest_art .articls .art div p{
+    color: hsl(233, 8%, 62%);
+}
+.latest_art .articls .art{
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+.latest_art .articls .art img{
+    width: 100%;
+    height: 195px;
+    border-radius: 5px 5px 0px 0px;
+}
+.latest_art .articls .art img:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.latest_art .articls .art div{
+    width: 90%;
+    margin: auto;
+    align-self: center;
+}
+/* end latest_art */
+/* start footer */
+footer{
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 50px;
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+}
+footer .left_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+footer .left_footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
+footer .left_footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .right_footer{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    width: 80%;
+    justify-content: space-between;
+}
+footer .right_footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+footer .right_footer .links_footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+footer .right_footer .links_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+footer .right_footer .links_footer ul li a:hover{
+    color: hsl(192, 70%, 51%);
+    transition-duration: 0.3s;
+}
+footer .right_footer .links_footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+footer .right_footer .request{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 25%;
+}
+footer .right_footer .request p{
+    color: hsl(233, 8%, 62%);
+}
+footer .right_footer .request a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 13px;
+    border-radius: 50px;
+    width: 60%;
+    font-size: 16px;
+    text-align: center;
+    align-self: flex-end;
+}
+
+footer .right_footer .request a:hover {
+    transition-duration: 0.5s;
+    opacity: 60%;
+}
+/* end footer */
