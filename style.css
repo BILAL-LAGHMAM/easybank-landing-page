@@ -375,6 +375,7 @@ header nav #linknav.show-nav{
         background-color: white;
         top: 80px;
         border-radius: 10px;
+        border: 2px solid hsl(192, 70%, 51%);
         left: 30px;
         gap: 0;
         text-align: center;
@@ -670,6 +671,341 @@ header nav #linknav.show-nav{
     }
     footer .right_footer .request a{
         width: 40vw;
+        align-self: center;
+    }
+    footer .right_footer .request p{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:651px) and (max-width:850px)  {
+    header {
+        width: 100vw;
+        height: max-content;
+        padding-bottom: 25px;
+    }
+
+    header nav {
+        height: 10vh;
+        width: 100vw;
+        padding: 0 15px;
+    }
+
+    header .btn_request {
+        display: none;
+    }
+
+    header .bottom_header {
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: max-content;
+    }
+
+    header .bottom_header .rightarticle {
+        background-image: url(images/bg-intro-mobile.svg);
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-position: 0px 12px;
+        width: 100vw;
+        height: 115vh;
+    }
+
+    header nav .links {
+        flex-direction: column;
+        width: 80vw;
+        height: 40vh;
+        position: fixed;
+        background-color: white;
+        top: 80px;
+        border-radius: 10px;
+        left: 90px;
+        gap: 0;
+        text-align: center;
+        padding: 10px 15px 0;
+        display: none;
+    }
+    header nav .links li{
+        height: 0;
+        padding: 20px;
+    }
+    header nav .links li a{
+        color: black;
+    }
+
+    header nav .fa-bars {
+        display: block;
+    }
+    header .bottom_header .rightarticle img {
+        width: 95vw;
+        position: relative;
+        right: -7px;
+        top: -57px;
+    }
+
+
+    header .bottom_header .leftarticle {
+        width: 100vw;
+        padding: 0;
+        align-self: baseline;
+        height: max-content;
+        align-items: center;
+        padding-top: 22px;
+    }
+
+    header .bottom_header .leftarticle h2 {
+        font-size: 33px;
+        text-align: center;
+    }
+    header .bottom_header .leftarticle a {
+        width: 21vw;
+    }
+
+    header .bottom_header .leftarticle p {
+        font-size: 13px;
+        width: 77vw;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    header .bottom_header .leftarticle p br {
+        display: none;
+    }
+
+
+    .choose {
+        padding: 25px;
+        justify-content: initial;
+        height: 274vh;
+        gap: 0;
+    }
+    .choose .divbottom .art {
+        width: 100vw;
+        padding-top: 25px;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .choose .divbottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .choose .divtop {
+        text-align: center;
+    }
+    .latest_art .articls {
+        display: flex;
+        flex-direction: column;
+    }
+    .latest_art {
+        padding: 25px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        background-color: hsl(0, 0%, 98%);
+    }
+    .latest_art h2{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .latest_art .articls .art img{
+        height: 285px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 25px;
+        height: max-content;
+        gap: 15px;
+    }
+
+    footer .left_footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer .right_footer {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    footer .right_footer .links_footer {
+        flex-direction: column;
+        width: 50vw;
+        gap: 15px;
+    }
+    footer .right_footer .request{
+        width: 50vw;
+    }
+    footer .right_footer .request a{
+        width: 25vw;
+        align-self: center;
+    }
+    footer .right_footer .request p{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:851px) and (max-width:1300px)  {
+    header {
+        width: 100vw;
+        height: max-content;
+        padding-bottom: 25px;
+    }
+
+    header nav {
+        height: 10vh;
+        width: 100vw;
+        padding: 0 15px;
+    }
+
+    header .btn_request {
+        display: none;
+    }
+
+    header .bottom_header {
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: max-content;
+    }
+
+    header .bottom_header .rightarticle {
+        background-image: url(images/bg-intro-mobile.svg);
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-position: 0px 12px;
+        width: 100vw;
+        height: 115vh;
+    }
+
+    header nav .links li{
+        height: 0;
+        padding: 20px;
+    }
+    header nav .links li a{
+        color: black;
+    }
+
+ 
+    header .bottom_header .rightarticle img {
+        width: 95vw;
+        position: relative;
+        right: -7px;
+        top: -57px;
+    }
+
+
+    header .bottom_header .leftarticle {
+        width: 100vw;
+        padding: 0;
+        align-self: baseline;
+        height: max-content;
+        align-items: center;
+        padding-top: 22px;
+    }
+
+    header .bottom_header .leftarticle h2 {
+        font-size: 33px;
+        text-align: center;
+    }
+    header .bottom_header .leftarticle a {
+        width: 21vw;
+    }
+
+    header .bottom_header .leftarticle p {
+        font-size: 13px;
+        width: 77vw;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    header .bottom_header .leftarticle p br {
+        display: none;
+    }
+
+
+    .choose {
+        padding: 25px;
+        justify-content: initial;
+        height: 350vh;
+        gap: 0;
+    }
+    .choose .divbottom .art {
+        width: 100vw;
+        padding-top: 25px;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .choose .divbottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .choose .divtop {
+        text-align: center;
+    }
+    .latest_art .articls {
+        display: flex;
+        flex-direction: column;
+    }
+    .latest_art .articls .art div{
+        width: 60vw;
+    }
+    .latest_art {
+        padding: 25px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        background-color: hsl(0, 0%, 98%);
+    }
+    .latest_art h2{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .latest_art .articls .art{
+        align-items: center;
+    }
+    .latest_art .articls .art img{
+        height: 300px;
+        width: 60vw;
+      }
+
+    footer {
+        flex-direction: column;
+        padding: 25px;
+        height: max-content;
+        gap: 15px;
+    }
+
+    footer .left_footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer .right_footer {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    footer .right_footer .links_footer {
+        flex-direction: column;
+        width: 50vw;
+        gap: 15px;
+    }
+    footer .right_footer .request{
+        width: 50vw;
+    }
+    footer .right_footer .request a{
+        width: 25vw;
         align-self: center;
     }
     footer .right_footer .request p{
