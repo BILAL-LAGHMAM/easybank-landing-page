@@ -83,8 +83,7 @@ header .bottom_header .rightarticle {
     background-repeat: no-repeat;
     background-position-y: -260px;
     overflow: hidden;
-    width: 60%;
-}
+    width: 6max-content}
 
 header .bottom_header .rightarticle img {
     width: 100%;
@@ -134,7 +133,7 @@ header .bottom_header .leftarticle a:hover {
     flex-direction: column;
     gap: 3rem;
     background-color: hsl(0, 0%, 98%);
-    height: 80vh;
+    height: max-content;
     justify-content: center;
 }
 
@@ -364,7 +363,7 @@ header nav #linknav.show-nav{
         background-repeat: no-repeat;
         background-position: 0px 12px;
         width: 100vw;
-        height: 75vh;
+        height: max-content;
     }
 
     header nav .links {
@@ -432,7 +431,7 @@ header nav #linknav.show-nav{
     .choose {
         padding: 25px;
         justify-content: initial;
-        height: 227vh;
+        height: max-content;
         gap: 0;
     }
 
@@ -534,7 +533,7 @@ header nav #linknav.show-nav{
         background-repeat: no-repeat;
         background-position: 0px 12px;
         width: 100vw;
-        height: 84vh;
+        height: max-content;
     }
 
     header nav .links {
@@ -602,7 +601,7 @@ header nav #linknav.show-nav{
     .choose {
         padding: 25px;
         justify-content: initial;
-        height: 247vh;
+        height: max-content;
         gap: 0;
     }
     .choose .divbottom .art {
@@ -706,7 +705,7 @@ header nav #linknav.show-nav{
         background-repeat: no-repeat;
         background-position: 0px 12px;
         width: 100vw;
-        height: 115vh;
+        height: 1max-content;
     }
 
     header nav .links {
@@ -774,7 +773,7 @@ header nav #linknav.show-nav{
     .choose {
         padding: 25px;
         justify-content: initial;
-        height: 274vh;
+        height: max-content;
         gap: 0;
     }
     .choose .divbottom .art {
@@ -878,7 +877,7 @@ header nav #linknav.show-nav{
         background-repeat: no-repeat;
         background-position: 0px 12px;
         width: 100vw;
-        height: 115vh;
+        height: 1max-content;
     }
 
     header nav .links li{
@@ -930,7 +929,7 @@ header nav #linknav.show-nav{
     .choose {
         padding: 25px;
         justify-content: initial;
-        height: 350vh;
+        height: max-content;
         gap: 0;
     }
     .choose .divbottom .art {
